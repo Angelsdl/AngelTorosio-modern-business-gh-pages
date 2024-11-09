@@ -6,22 +6,82 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+footer {
+  background: linear-gradient(135deg, #2C3E50, #1a70c7);
+}
 
+.colorCorporativo {
+  color:linear-gradient(135deg, #2C3E50, #1a70c7) !important;
+}
 
-.section-custom { background: linear-gradient(135deg, #f0f0f0, #d9d9d9); padding: 5rem 0; } .section-custom h2 { font-family: 'Arial', sans-serif; font-size: 2.5rem; color: #333; } .section-custom .feature { background: linear-gradient(135deg, #ff6f61, #ff9a8b); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); } .section-custom .feature i { font-size: 2rem; } .section-custom .h5 { font-family: 'Verdana', sans-serif; color: #333; } .section-custom p { color: #666; }
+.section-custom {
+  background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+  padding: 5rem 0;
+}
+.section-custom h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+}
+.section-custom .feature {
+  background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-custom .feature i {
+  font-size: 2rem;
+}
+.section-custom .h5 {
+  font-family: "Verdana", sans-serif;
+  color: #333;
+}
+.section-custom p {
+  color: #666;
+}
 
-.testimonial-section { background: linear-gradient(135deg, #e0e0e0, #f8f8f8); padding: 5rem 0; } .testimonial-section .container { max-width: 900px; } .testimonial-section .fs-4 { font-family: 'Georgia', serif; color: #333; font-style: italic; } .testimonial-section .rounded-circle { border: 2px solid #ff6f61; } .testimonial-section .fw-bold { font-family: 'Arial', sans-serif; color: #333; } .testimonial-section .text-primary { color: #ff6f61 !important; }
+.testimonial-section {
+  background: linear-gradient(135deg, #e0e0e0, #f8f8f8);
+  padding: 5rem 0;
+}
+.testimonial-section .container {
+  max-width: 900px;
+}
+.testimonial-section .fs-4 {
+  font-family: "Georgia", serif;
+  color: #333;
+  font-style: italic;
+}
+.testimonial-section .rounded-circle {
+  border: 2px solid #ff6f61;
+}
+.testimonial-section .fw-bold {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+.testimonial-section .text-primary {
+  color: #ff6f61 !important;
+}
 
-.custom-text { font-family: 'Arial', sans-serif; font-size: 1.2rem; color: #333; padding: 10px; border-radius: 5px; } .custom-text-center { text-align: center; font-weight: bold; color: #007bff; }
+.custom-text {
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+.custom-text-center {
+  text-align: center;
+  font-weight: bold;
+  color: #007bff;
+}
 
 .navbar {
-  background: linear-gradient(45deg, #1a1a1a, #333);
-  border-bottom: 3px solid #ff6f61;
+  background: linear-gradient(135deg, #2C3E50, #1a70c7);
+  border-bottom: 3px solid #bec2c4;
 }
 .navbar-brand {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
-  color: #ff6f61 !important;
+  color: #FFFFFF !important;
 }
 .navbar-nav .nav-link {
   font-size: 1.1rem;
@@ -29,7 +89,7 @@
   transition: color 0.3s;
 }
 .navbar-nav .nav-link:hover {
-  color: #ff6f61 !important;
+  color: #579bdf !important;
 }
 .navbar-toggler {
   border-color: #ff6f61;
@@ -50,7 +110,7 @@
 }
 
 .header-custom {
-  background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+  background: linear-gradient(135deg, #2C3E50, #1a70c7);
   padding: 5rem 0;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
