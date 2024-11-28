@@ -11342,3 +11342,28 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+@media (max-width: 1200px) {
+  .header-custom .col-xl-5,
+  .header-custom .col-xxl-6 {
+      display: block;
+      text-align: center;
+  }
+
+  .header-custom img {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-responsive {
+      width: 50%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo-responsive {
+      width: 75%;
+  }
+}
