@@ -1,12 +1,14 @@
 @charset "UTF-8";
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 footer {
   background: linear-gradient(135deg, #2C3E50, #1a70c7);
+}
+
+#adminLogin {
+  cursor: pointer;
+}
+
+.botonRojoHover:hover {
+  background-color: red !important;
 }
 
 .colorLetraCorp {
@@ -24,6 +26,14 @@ footer {
 .ulRows {
   list-style-type: " → ";
 }
+
+.modal-content { border-radius: 5px; } 
+
+.modal-header { border-bottom: none; } 
+
+.close { color: #aaa; font-size: 28px; font-weight: bold; } 
+
+.close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
 
 .ulRows li::marker {
   font-size: 25px; /* Cambia el tamaño del marcador de la lista */
