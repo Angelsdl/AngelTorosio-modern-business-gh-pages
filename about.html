@@ -19,13 +19,16 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"> Angelsdl </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.html"> Inicio </a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html"> Acerca de </a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html"> Contacto </a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html"> ¿Quiénes somos? </a></li>
                             <li class="nav-item"><a class="nav-link" href="colaboradores.html"> Colaboradores </a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html"> Contacto </a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,7 +39,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xxl-6">
                             <div class="text-center my-5">
-                                <h1 class="fw-bolder mb-3 custom-text-center"> Misión,Visión y Valores </h1>
+                                <h1 class="fw-bolder mb-3 custom-text-center"> Misión,Visión y Ejes Estratégicos </h1>
                                 <img class="img-fluid mt-2 px-4" src="img/UDDEA3_recortada-redimensionada.png" alt="..." />
                             </div>
                         </div>
@@ -72,17 +75,15 @@
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="img/Valores.jpeg" alt="..." /></div>
                         <div class="col-lg-6">
-                            <h2 class="fw-bolder text-center colorLetraCorp2"> VALORES </h2>
+                            <h2 class="fw-bolder text-center colorLetraCorp2"> EJES ESTRATÉGICOS </h2>
                             <p class="lead fw-normal mb-0">
                                 <ul class="ulRows">
-                                    <li class="colorLetraCorp3"> Innovación: Buscar continuamente nuevas formas de mejorar la profesión de director deportivo y su equipo de trabajo. </li>
-                                    <li class="colorLetraCorp3"> Igualdad: Defender la igualdad de oportunidades y la justa remuneración para todos los miembros, sin distinción de género. </li>
-                                    <li class="colorLetraCorp3"> Profesionalismo: Actuar con compromiso, responsabilidad y excelencia en cada tarea.  </li>
-                                    <li class="colorLetraCorp3"> Transparencia: Garantizar claridad y apertura en todas las decisiones y procesos.  </li>
-                                    <li class="colorLetraCorp3"> Unidad: Fomentar la cooperación y colaboración entre todos los miembros.  </li>
-                                    <li class="colorLetraCorp3"> Honestidad: Actuar con integridad y veracidad en todas las interacciones.  </li>
-                                    <li class="colorLetraCorp3"> Respeto: Valorar y considerar las ideas y aportaciones de todos los profesionales. </li>
-                                    <li class="colorLetraCorp3"> Defensa y protección del afiliado: Salvaguardar los derechos y condiciones de los miembros de la asociación. </li>
+                                    <li class="colorLetraCorp3"> Profesionalización y Reconomiento Legal. </li>
+                                    <li class="colorLetraCorp3"> Formación y Desarrollo Profesional. </li>
+                                    <li class="colorLetraCorp3"> Fortalecimiento de la Comunidad y Creación de Valor para los Miembros.  </li>
+                                    <li class="colorLetraCorp3"> Sostenibilidad Organizativa y Resiliencia.  </li>
+                                    <li class="colorLetraCorp3"> Innovación y Desarrollo Tecnológico.  </li>
+                                    <li class="colorLetraCorp3"> Internalización y Expansión Global </li>
                                 </ul>
                             </p>
                         </div>
@@ -145,9 +146,35 @@
             </div>
         </div>
     </footer>
+    <div id="loginPopup" class="modal" tabindex="-1" role="dialog"> <div class="modal-dialog" role="document"> 
+        <div class="modal-content"> 
+            <div class="modal-header"> 
+                <h5 class="modal-title">Login de Administrador</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+                <span aria-hidden="true">&times;</span> 
+                </button> 
+            </div> 
+            <div class="modal-body"> 
+                    <form id="loginForm" method="POST" action="index.php"> <div class="form-group"> 
+                        <label for="username">Usuario:</label> <input type="text" class="form-control" id="username" name="username" required> 
+                    </div> 
+                    <div class="form-group"> 
+                        <label for="password">Contraseña:</label> 
+                        <input type="password" class="form-control" id="password" name="password" required> 
+                    </div> 
+                    <button type="submit" class="btn btn-primary mt-2">Iniciar Sesión</button> 
+                </form> 
+                <p id="errorMessage" class="text-danger mt-2"></p> 
+            </div> 
+        </div> 
+    </div> 
+</div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
